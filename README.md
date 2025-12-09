@@ -4,7 +4,12 @@
 
 This repository contains the code and experiments for the diploma thesis **"Deep Learning for Perceptual Image Similarity in Dermatology Image Regions"**.
 
-The main goal of this work is the **development and evaluation of deep learning models** for assessing dermatological conditions from dermoscopic and clinical skin images. We use **convolutional neural networks (CNNs)** (e.g. ResNet50, VGG16, Vision Transformers / ViT, and related transformer-based architectures) to analyze and compare dermoscopy image regions and support skin disease assessment.
+The main goal of this thesis is to investigate **perceptual image similarity in dermatology** by leveraging **deep learning models**, including **convolutional neural networks (CNNs)** (such as VGG16 and ResNet50) and **Vision Transformers (ViT)**.
+
+This work focuses on analyzing and comparing **dermoscopic and clinical skin image regions**, using modern perceptual similarity metrics such as **DISTS** and **LPIPS**. The objective is to study how these similarity measures behave on dermatology images and to evaluate how well they align with **expert dermatologists’ judgments**.
+
+Beyond perceptual metrics, the thesis also includes the **development, fine-tuning, and evaluation** of deep learning architectures for dermatology image understanding, providing both quantitative results and tools (including an interactive GUI) to explore similarity between regions of interest.
+
 
 The models are trained and evaluated using:
 - The **ISIC** skin lesion dataset.
