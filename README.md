@@ -209,6 +209,12 @@ For exact metrics (tables, ROC curves, confusion matrices, etc.), please refer t
 - The hospital dataset is **not public** and cannot be shared, due to patient privacy and ethical constraints.
 - Models and code in this repository are provided **for research and educational purposes only** and **must not** be used as a standalone medical diagnostic tool.
 
+## License
+
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for more details.
+
+
 ## Contact
 
 For questions regarding this work, collaboration, or further information about the thesis, feel free to contact me via GitHub or at stylianossyrros@gmail.com.
