@@ -211,4 +211,4 @@ For exact metrics (tables, ROC curves, confusion matrices, etc.), please refer t
 
 ## Contact
 
-For questions regarding this work, collaboration, or further information about the thesis, feel free to contact me via GitHub or at stylianossyrros@gmail.com provided in the CV / accompanying application materials.
+For questions regarding this work, collaboration, or further information about the thesis, feel free to contact me via GitHub or at stylianossyrros@gmail.com.
