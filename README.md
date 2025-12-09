@@ -106,7 +106,7 @@ Because this project contains multiple experiments and frameworks (TensorFlow, P
 1. **Clone the repository** from GitHub:
    ```bash
    git clone https://github.com/stylianos-syrros/deep-learning-similarity-metrics-dermatology.git
-   cd <your-repo-name>
+   cd deep-learning-similarity-metrics-dermatology
    ```
 
 2. **Create and activate a Python environment** (recommended):
