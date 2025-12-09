@@ -127,20 +127,28 @@ A typical way to work with this repository is:
    The provided requirements.txt mainly covers the perceptual similarity experiments (DISTS, LPIPS, basic deep learning and image processing libraries).
 Some subfolders or notebooks may require additional packages; please check the imports inside each script/notebook and install any extra dependencies as needed.
 
-4. **Prepare your own datasets** :
-   - The thesis experiments use both the public ISIC dataset and a private hospital dataset from the University Hospital of Ioannina.
-   - The hospital data cannot be shared due to privacy and ethics, so it is not included in this repository.
+4. **Prepare your own datasets**:
+
+   The thesis experiments use both the **public ISIC dataset** and a **private hospital dataset** from the University Hospital of Ioannina.
+
+   - The hospital data **cannot be shared** due to privacy and ethics, so it is *not included* in this repository.
    - To reproduce or extend parts of this work, you should:
+     - download a public dataset (e.g. **ISIC**), or  
+     - use your own dermatology / medical image dataset,  
+     - and adapt the dataset paths and preprocessing scripts to your local setup.
 
-download a public dataset (e.g. ISIC), or
+---
 
-use your own dermatology / medical image dataset,
+5. **Explore the notebooks and scripts**  
+   Open the relevant notebooks (e.g. under `GoogleCollab/` or other folders) in **Jupyter** or **Google Colab** and run the cells in order.  
+   These notebooks serve as examples demonstrating model training, feature extraction, similarity computation, and evaluation workflows.
 
-and adapt the dataset paths and preprocessing scripts to your local setup.
+---
 
-5. **Explore the notebooks and scripts** (e.g. under `GoogleCollab/` or other folders) in Jupyter or Google Colab and run the cells in order.
+6. **Run the interactive GUI tool**  
+   (see the section below) to load a dermatology image, select two regions, and compute **DISTS** and **LPIPS** similarity scores.  
+   This tool allows qualitative exploration of perceptual similarity on dermatology images.
 
-6. **Run the interactive GUI tool** (see the section below) to load a dermatology image, select two regions, and obtain DISTS and LPIPS similarity scores for them.
 
 ## Interactive GUI Tool for Region Similarity
 
