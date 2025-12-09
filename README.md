@@ -137,13 +137,9 @@ Some subfolders or notebooks may require additional packages; please check the i
      - use your own dermatology / medical image dataset,  
      - and adapt the dataset paths and preprocessing scripts to your local setup.
 
----
-
 5. **Explore the notebooks and scripts**  
    Open the relevant notebooks (e.g. under `GoogleCollab/` or other folders) in **Jupyter** or **Google Colab** and run the cells in order.  
    These notebooks serve as examples demonstrating model training, feature extraction, similarity computation, and evaluation workflows.
-
----
 
 6. **Run the interactive GUI tool**  
    (see the section below) to load a dermatology image, select two regions, and compute **DISTS** and **LPIPS** similarity scores.  
