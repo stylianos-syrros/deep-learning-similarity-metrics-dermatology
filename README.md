@@ -120,16 +120,25 @@ A typical way to work with this repository is:
    .venv\Scripts\activate  # on Windows
    ```
 
-3. **Install the required dependencies** (if a `requirements.txt` or `environment.yml` is provided in a specific folder, use that). Example:
+3. **Install the required dependencies** 
    ```bash
    pip install -r requirements.txt
    ```
+   The provided requirements.txt mainly covers the perceptual similarity experiments (DISTS, LPIPS, basic deep learning and image processing libraries).
+Some subfolders or notebooks may require additional packages; please check the imports inside each script/notebook and install any extra dependencies as needed.
 
-4. **Download the datasets** (ISIC, hospital data if you have access):
-   - Place them under `datasets/` or follow the instructions in the corresponding notebook.
-   - Make sure dataset paths in notebooks/scripts match your local structure.
+4. **Prepare your own datasets** :
+   - The thesis experiments use both the public ISIC dataset and a private hospital dataset from the University Hospital of Ioannina.
+   - The hospital data cannot be shared due to privacy and ethics, so it is not included in this repository.
+   - To reproduce or extend parts of this work, you should:
 
-5. **Open the relevant notebooks** (e.g. under `GoogleCollab/` or other folders) in Jupyter or Google Colab and run the cells in order.
+download a public dataset (e.g. ISIC), or
+
+use your own dermatology / medical image dataset,
+
+and adapt the dataset paths and preprocessing scripts to your local setup.
+
+5. **Explore the notebooks and scripts** (e.g. under `GoogleCollab/` or other folders) in Jupyter or Google Colab and run the cells in order.
 
 6. **Run the interactive GUI tool** (see the section below) to load a dermatology image, select two regions, and obtain DISTS and LPIPS similarity scores for them.
 
