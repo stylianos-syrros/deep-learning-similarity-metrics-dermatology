@@ -100,7 +100,7 @@ Because this project contains multiple experiments and frameworks (TensorFlow, P
 
 1. **Clone the repository** from GitHub:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/stylianos-syrros/deep-learning-similarity-metrics-dermatology.git
    cd <your-repo-name>
    ```
 
@@ -184,4 +184,4 @@ For exact metrics (tables, ROC curves, confusion matrices, etc.), please refer t
 
 ## Contact
 
-For questions regarding this work, collaboration, or further information about the thesis, please contact the author via GitHub or the email address provided in the CV / accompanying application materials.
+For questions regarding this work, collaboration, or further information about the thesis, feel free to contact me via GitHub or at stylianossyrros@gmail.com provided in the CV / accompanying application materials.
