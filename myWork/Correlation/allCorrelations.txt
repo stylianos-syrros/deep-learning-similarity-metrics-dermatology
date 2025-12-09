@@ -1,0 +1,166 @@
+1) correlationDISTS_LPIPS
+Highest correlations:
+Category             Layer                               Correlation          P-Value
+category             Mean Score DISTS                    0.8485093726528554   5.734239785868128e-50
+color                Mean Score DISTS                    0.8073070790881215   1.0418246573294216e-41
+texture              Mean Score DISTS                    0.8232572927495491   1.193503127018314e-44
+
+2) correlationSSIM
+Category             Layer                                                        Correlation          P-Value
+category             Average SSIM Distance (Resized)                              0.6257694369334299   1.607375793992778e-20
+color                Average SSIM Distance (Resized)                              0.535812366573257    1.8191205753220116e-14
+texture              Average SSIM Distance (Resized)                              0.6660419723590687   6.344076567958679e-24
+
+3) correlationResNet
+Highest correlation :
+Category             Layer                                                        Correlation          P-Value
+category             Average(Spatial Positions) Cosine Distance (Conv5_x)         0.8332664217520726   1.1907232513886766e-46
+color                Average(Spatial Positions) Cosine Distance (Conv5_x)         0.7827510387329171   1.1119441213167868e-37
+texture              Average(Spatial Positions) Cosine Distance (Conv5_x)         0.8184073422441956   1.0035680550002683e-43
+
+4) correlationTrainedResNetModels(PyTorch)
+Lowest correlation for each category:
+Category             Layer                                                        Correlation          P-Value
+category             Epoch_1_avgpool                                              -0.6127547381331855  1.5957987939696875e-19
+color                Epoch_10_avgpool                                             -0.7621997385149677  1.0826284279860514e-34
+texture              Epoch_1_avgpool                                              -0.6738783038270685  1.1955091954927227e-24
+
+5) correlationVGG16
+Highest correlations:
+Category             Layer                                              Correlation          P-Value
+category             (pretrained_flat)ReLU                              0.7751154321472085   1.560466981063785e-36
+color                (pretrained_flat)ReLU                              0.7436278076791878   3.061698634184117e-32
+texture              (pretrained_flat)ReLU                              0.7459665072440071   1.545311634608452e-32
+
+6) correlationTrainedVGG16
+Highest correlation for each category:
+Category             Layer                                                        Correlation          P-Value
+category             Epoch_1_classifier.4                                         0.7622514693987196   1.0649748652251639e-34
+color                Epoch_1_classifier.4                                         0.7103305962055113   2.4585813476349886e-28
+texture              Epoch_1_avgpool                                              0.7657882991814475   3.42623981843154e-35
+ 
+7) correlationVGG16differentWaysAndLayers
+Highest correlations:
+Category             Layer                          Correlation          P-Value
+color                Distance features.30           0.5639986747103334   3.6193318407971774e-16
+texture              Distance features.30           0.6105854547766052   2.3157109634317433e-19
+category             Distance features.30           0.6113314583665863   2.0380491158352774e-19
+
+8) correlationViT
+Highest correlations:
+Category             Layer                          Correlation          P-Value
+category             trainedViTCLS                  0.6619245296256389   1.4944970157483107e-23
+color                trainedViTCLS                  0.6164136445859413   8.460441904751064e-20
+texture              trainedViTCLS                  0.6554427063542962   5.604885116604998e-23
+
+9) correlationTrainedViTModels
+Highest correlations:
+Category             Model                Correlation          P-Value
+category             Epoch_3              0.712614613062983    1.3824301788512917e-28
+color                Epoch_3              0.6919313875902097   2.0890997518232448e-26
+texture              Epoch_3              0.6776443146004646   5.263135442898453e-25
+
+10) correlationLPIPSallNetworks
+Highest correlation:
+Category             LPIPS Column         Correlation          P-Value
+category             lpips_squeeze        0.7715654747523695   5.14464803805602e-36
+color                lpips_squeeze        0.7132550622440171   1.1751472612170043e-28
+texture              lpips_squeeze        0.7692115178404739   1.1214433448126605e-35
+
+11) correlationTrainedResNetModels(TensorFlow)
+Highest correlation for each category:
+Category             Model                                                        Correlation          P-Value
+color                epoch_17_conv5_block3_3_bn                                   0.6577830584661549   3.490771066542539e-23
+texture              epoch_16_conv5_block3_3_bn                                   0.6801178423160295   3.050174536302036e-25
+category             epoch_17_conv5_block3_3_bn                                   0.6950790626655885   1.0005130337754127e-26
+
+12) correlationDISTS_tf
+Category             Layer                               Correlation          P-Value
+category             DISTS_tf                            0.8502109845775143   2.320491327611895e-50
+color                DISTS_tf                            0.8078535743714486   8.348701984224646e-42
+texture              DISTS_tf                            0.8259686017825361   3.5274066684253435e-45
+
+13) correlationDISTS_avg_spat_tf
+Category             Layer                               Correlation          P-Value
+category             DISTS_tf_avg_spat                   0.7636562027365414   6.803858280515884e-35
+color                DISTS_tf_avg_spat                   0.7010551641445226   2.408211124479119e-27
+texture              DISTS_tf_avg_spat                   0.7661593547479267   3.038387431501949e-35
+
+14) correlationDISTS_avg_spat_weights_tf
+Highest correlations:
+Category             Layer                               Correlation          P-Value
+category             DISTS_tf_avg_spat_weights1          0.788318932809928    1.513202994816591e-38
+color                DISTS_tf_avg_spat_weights1          0.72731276229018     2.9598108245865776e-30
+texture              DISTS_tf_avg_spat_weights1          0.7873272951598744   2.1680240106810405e-38
+
+15) correlationDISTS_avg_spat_IoU_weights_tf
+Highest correlations:
+Category             Layer                               Correlation          P-Value
+color                DISTS_tf_avg_spat_IoU_weights1      0.5372810233821181   1.496568779929129e-14
+texture              DISTS_tf_avg_spat_IoU_weights1      0.6145189945870185   1.1763692833372746e-19
+category             DISTS_tf_avg_spat_IoU_weights1      0.5995666407754275   1.4697628300392225e-18
+
+16) correlationAllModelsFineTunedDISTS_tf (previous edition with train2 dataset)
+Category             Model                               Correlation          P-Value
+category             epoch_13_dists                      0.8562992933771421   8.295131482889883e-52
+color                epoch_14_dists                      0.8037411389714837   4.3439663569753114e-41
+texture              epoch_11_dists                      0.8432455773034309   8.789246426410631e-49
+
+17) correlationAllModelsFineTunedDISTS_tf (new edition with whole bcc dataset)
+Category             Model                               Correlation          P-Value
+category             epoch_10_dists                      0.8563714223740706   7.966829517672358e-52
+color                epoch_11_dists                      0.803659682967778    4.4864411939068687e-41
+texture              epoch_9_dists                       0.8433096323273174   8.507253800248677e-49
+
+18) correlationAllModelsSecondFineTunedDISTS_tf
+Category             Model                               Correlation          P-Value
+category             epoch_10_dists                      0.9680213571258466   1.9879556272678812e-106
+color                epoch_9_dists                       0.9182449466745009   6.592487832702574e-72
+texture              epoch_10_dists                      0.941976947492805    2.0757369404297096e-84
+
+(DISTS_tf)
+Category             Model                               Correlation          P-Value
+category             DISTS_tf                            0.8502109845775143   2.320491327611895e-50
+color                DISTS_tf                            0.8078535743714486   8.348701984224646e-42
+texture              DISTS_tf                            0.8259686017825361   3.5274066684253435e-45
+
+(SecondFineTunedDISTS_tf)
+Category             Model                               Correlation          P-Value
+category             epoch_10_dists                      0.9680213571258466   1.9879556272678812e-106
+color                epoch_9_dists                       0.9182449466745009   6.592487832702574e-72
+texture              epoch_10_dists                      0.941976947492805    2.0757369404297096e-84
+
+Overall
+Highest correlations :
+Category             Model                               Correlation          P-Value
+category             epoch_10_dists                      0.9680213571258466   1.9879556272678812e-106
+color                epoch_9_dists                       0.9182449466745009   6.592487832702574e-72
+texture              epoch_10_dists                      0.941976947492805    2.0757369404297096e-84
+
+normalized_color_score 
+
+19) correlationDISTS_tf_normalized
+Category                                 Correlation          P-Value
+category                                 0.8502109829013231   2.320493408359785e-50
+normalized_color_score                   0.8386222609086573   8.906033682774027e-48
+normalized_texture_score                 0.8666436983866832   1.9994442108238627e-54
+
+20) correlationAllModelsSecondFineTunedDISTS_tf_normalized
+Category                                 Layer                Correlation          P-Value
+category                                 epoch_10_dists       0.9680213571258466   1.9879556272678812e-106
+normalized_color_score                   epoch_20_dists       0.9546186594752784   1.8693734204507548e-93
+normalized_texture_score                 epoch_7_dists        0.9645763151376421   1.257390349914701e-102
+
+normalized_color_score and mean_category
+
+21) correlationDISTS_tf_normalized
+Category                                 Correlation          P-Value
+mean_category_score                      0.8743300596362149   1.619383354732521e-56
+normalized_color_score                   0.8386222609086573   8.906033682774027e-48
+normalized_texture_score                 0.8666436983866832   1.9994442108238627e-54
+
+22) correlationAllModelsSecondFineTunedDISTS_tf_normalized
+Category                                 Layer                Correlation          P-Value
+mean_category_score                      epoch_9_dists        0.9823006670588071   1.6394810209376936e-128
+normalized_color_score                   epoch_20_dists       0.9546186594752784   1.8693734204507548e-93
+normalized_texture_score                 epoch_7_dists        0.9645763151376421   1.257390349914701e-102

@@ -1,0 +1,351 @@
+The greater the distance, the more dissimilar the two images are
+Large distance metric => Dissimilar images
+Small distance metric => Similar images
+
+VGG16 : The 16 in VGG16 refers to 16 layers that have weights. In VGG16 there are thirteen convolutional layers, five Max Pooling layers, and three Dense layers(FC)
+which sum up to 21 layers but it has only sixteen weight layers i.e., learnable parameters layer.
+
+Συνελικτικά Επίπεδα (Convolutional Layers):
+Τα συνελικτικά επίπεδα ανιχνεύουν χαρακτηριστικά σε διάφορα επίπεδα πολυπλοκότητας στην εικόνα. Κάθε συνελικτικό επίπεδο αποτελείται από πολλαπλά φίλτρα που εφαρμόζονται
+σε διαφορετικές περιοχές της εικόνας, δημιουργώντας έναν χάρτη χαρακτηριστικών για κάθε επίπεδο.
+
+Επίπεδα Συγκέντρωσης (Pooling Layers):
+Τα επίπεδα συγκέντρωσης μειώνουν τις διαστάσεις των χαρτών χαρακτηριστικών που προκύπτουν από τα συνελικτικά επίπεδα, κρατώντας τα σημαντικότερα χαρακτηριστικά.
+
+Πλήρως Διασυνδεδεμένα Επίπεδα (Fully Connected Layers):
+Τα πλήρως διασυνδεδεμένα επίπεδα είναι υπεύθυνα για την ταξινόμηση της εικόνας σε διάφορες κατηγορίες. Τα χαρακτηριστικά που εξάγονται από τα προηγούμενα επίπεδα 
+συγκεντρώνονται και χρησιμοποιούνται για να προβλέψουν την κατηγορία της εικόνας.
+
+Τα CNNs είναι βαθιά νευρωνικά δίκτυα που μπορούν να μάθουν να αναγνωρίζουν χαρακτηριστικά από τις εικόνες, χρησιμοποιώντας σταδιακές επεξεργασίες συνέλιξης και 
+συγκέντρωσης (pooling), ενώ τα R-CNNs είναι μια πιο πολύπλοκη αρχιτεκτονική που συνδυάζει τα CNNs με μεθόδους προτεινόμενων περιοχών ενδιαφέροντος 
+(Region Proposal Networks - RPNs) και ταξινομητές
+Για την αποδοτική εξαγωγή χαρακτηριστικών από μεγάλο αριθμό εικόνων, τα R-CNNs μπορεί να είναι πιο αποδοτικά, καθώς επιτρέπουν την επιλεκτική εξαγωγή χαρακτηριστικών
+από περιοχές της εικόνας που είναι πιθανότατα σημαντικές για την αναγνώριση αντικειμένων. Από την άλλη πλευρά, τα CNNs μπορεί να είναι πιο γρήγορα και πιο απλά στην
+εφαρμογή.
+
+Transformers
+
+Οι Transformers είναι ένα είδος αρχιτεκτονικής νευρωνικών δικτύων που έχουν σχεδιαστεί για την επεξεργασία ακολουθιών δεδομένων , όπως το κείμενο, και έχουν επιφέρει 
+σημαντικές αλλαγές στον τομέα της μηχανικής μετάφρασης, της επεξεργασίας φυσικής γλώσσας(NLP), και άλλων εφαρμογών.
+
+Κύρια Χαρακτηριστικά των Transformers
+
+1. Self-Attention Mechanism: O μηχανισμός self Attention επιτρέπει στο μονέλο να δίνει προσοχή σε διαφορετικά μέρη της εισόδου καθώς επεξεργάζεται κάθε στοιχείο της 
+ακολουθίας. Αυτό επιτρέπει στους transformers να συλλαμβάνουν εξαρτήσεις μεταξύ λέξεων ή στοιχείων σε μεγάλες αποστάσεις μέσα στην ακολουθία 
+2. Positional Encoding: Επειδή οι transformers δεν χρησιμοποιούν επαναλαμβανόμενες ή συνελικτικές στρώσεις (RNNs ή CNNs), χρειάζονται ένα τρόπο να κατανοούν τη θέση 
+των λέξεων στην ακολουθία. Η postional encoding προσθέτει πληροφορίες θέσης στις ενσωματώσεις(embeddings) των λέξεων, επιτρέποντας στο μοντέλο να κατανοεί τη σειρά 
+των λέξεων 
+3. Parallelization: Σε αντίθεση με τα RNNs, οι transformers επεξεργάζονται όλα τα στοιχεία της ακολουθίας ταυτόχρονα, επιτρέποντας την παράλληλη εκπαίδευση και την 
+αποδοτικότερη χρήση των σύγχρονων υπολογιστικών πόρων  
+
+Δομή ενός Transformer
+
+1.Encoder: Αποτελείται από πολλαπλά στρώματα(layers), το καθένα με δύο βασικά υποσυστήματα:τον self attention μηχανισμό και ένα feed forward νευρωνικό δίκτυο. Ο 
+encoder παίρνει την είσοδο και παράγει μία ακολουθία ενσωματώσεων(embeddings)
+2.Decoder: Ο Decoder έχει παρόμοια δομή με τον encoder αλλά περιλαμβάνει επιπλέον έναν μηχανισμό attention που λαμβάνει υπόψη την έξοδο του encoder. Χρησιμοποιείται 
+κυρίως για δημιουργία κειμένου, όπως στη μηχανική μετάφραση, όπου παράγει την τελική έξοδο ακολουθίας
+
+Εφαρμογή των Transformers 
+
+Visual Transformers(ViTs): Οι transformers έχουν επεκταθεί και σε προβλήματα όρασης υπολογιστών(computer vision) με τα Vision Transformers, τα οποία αντιμετωπίζουν
+τις εικόνες ως ακολουθίες patch και χρησιμοποιούν την ίδια αρχιτεκτονική για την ανάλυσή τους
+
+Embeddings
+
+Τα embeddings είναι αναπαραστάσεις υψηλής διάστασης δεδομένων σε ένα χαμηλότερο διαστασιακό χώρο. Αυτές οι αναπαραστάσεις επιτρέπουν τη συμπίεση πολύπλοκων δεδομένων, 
+όπως λέξεις, φράσεις ή εικόνες, σε μορφές που είναι ευκολότερες για την επεξεργασία από τα μοντέλα machine learning.
+
+Χαρακτηριστικά των Embeddings
+
+Πολυδιάστατα Διανύσματα:
+Τα embeddings αναπαριστούν κάθε δεδομένο (π.χ., λέξη, εικόνα) ως ένα πολυδιάστατο διάνυσμα αριθμών.
+Οι διαστάσεις αυτών των διανυσμάτων είναι συνήθως αρκετά μικρότερες από τις αρχικές διαστάσεις των δεδομένων.
+
+Διατήρηση Σημασιολογικής Πληροφορίας:
+Τα embeddings διατηρούν τη σημασιολογική πληροφορία των δεδομένων. Για παράδειγμα, σε μια γλωσσική αναπαράσταση, οι λέξεις με παρόμοια σημασία θα έχουν διανύσματα 
+κοντά το ένα στο άλλο.
+
+Μάθηση μέσω Εκπαίδευσης:
+Τα embeddings μαθαίνονται συνήθως μέσω διαδικασιών εκπαίδευσης νευρωνικών δικτύων. Οι πιο κοινές τεχνικές περιλαμβάνουν τη χρήση deep learning αλγορίθμων και μεθόδων
+όπως το word2vec, GloVe, και το BERT για γλωσσικά δεδομένα ή CNNs για εικόνες.
+
+Σύγκριση Εικόνων:
+Image Embeddings: Αναπαράσταση εικόνων που μπορεί να χρησιμοποιηθεί για την αναγνώριση ή την ανάκτηση εικόνων.
+
+An embedding ia a mapping of a discrete-categorical-variable to a vector of continuous numbers. In the context of NNs, embeddings are low-dimensional, learned 
+continuous vector representations of discrete variables. NN e,beddings are useful because they can reduce the dimensionality of catgorical varibales and meaningfully 
+represent categories in the transformed space. NN embeddings have 3 primary purposes:
+1.Finding nearest neighbors in the embedding space. These can be used to make recommendations based on user interests or cluster categories
+2.As input to a machine learning model for a supervised task 
+3.For visualization of concepts and relations between categories
+
+Embedding Visualizations
+
+One of the coolest parts about embeddings are that they can be used to visualize concepts such as novel or non-fiction to one another. This requires a further dimension
+reduction technique to get the dimensions to 2 or 3. The most popular technique for reduction is itself an embedding method: t-Destribiteed Stochastic 
+Neighbor Embedding(TSNE)
+
+Interactive Visualizations
+
+The problem with static graphs is that we cant really explore the data and investigate groupings or relationships between variables. To solve this problem, 
+TensorFlow developed projector, an online application that let us visualize and interact with embeddings
+
+Conclusions
+
+NN embeddings are learned low-dimensional representations of discrete data as continuous vectors. These embeddings overcome the limitations of traditional encoding 
+methods and can be used for purposes such as finding nearest meighbors, input into another model and visualizations. Although many deep learning concepts are talked in 
+academic terms, NN embeddings are both intuitive and relatively simple to implement. Emdeddings are an effective tool for handling deiscrete variables and present a 
+useful application of deep learning 
+
+Resizing στο ViT
+
+Όταν χρησιμοποιείς ένα προεκπαιδευμένο μοντέλο όπως το Vision Transformer (ViT), είναι σημαντικό να τηρείς τις προδιαγραφές εισόδου για τις οποίες έχει σχεδιαστεί το 
+μοντέλο. Το ViT έχει προεκπαιδευτεί σε εικόνες με συγκεκριμένο μέγεθος, συνήθως 224x224 pixels. Επομένως, η καλύτερη πρακτική είναι να αλλάζεις το μέγεθος των εικόνων 
+σου σε αυτό το μέγεθος πριν τις περάσεις από το μοντέλο.
+Αν δεν αλλάζεις το μέγεθος των εικόνων, το αποτέλεσμα μπορεί να είναι αναξιόπιστο, επειδή το μοντέλο δεν έχει εκπαιδευτεί για να χειρίζεται αυθαίρετα μεγέθη εικόνων.
+Όταν κάνεις resize τις εικόνες σε 224x224 pixels, διασφαλίζεις ότι το μοντέλο επεξεργάζεται τα δεδομένα με τον τρόπο για τον οποίο έχει εκπαιδευτεί, με αποτέλεσμα πιο 
+αξιόπιστα και συνεπή embeddings.
+
+
+
+Η συσχέτιση μεταξύ των μετρικών DISTS και LPIPS είναι ιδιαίτερα ισχυρή, καθώς ο συντελεστής Pearson Correlation είναι 0.751. Αυτό σημαίνει ότι οι δύο μετρικές κινούνται
+παράλληλα μεταξύ τους, δηλαδή όταν η μία αυξάνεται, η άλλη τείνει επίσης να αυξάνεται, και αντίστροφα.
+Η συσχέτιση μεταξύ DISTS και ViT είναι αρνητική και επίσης σχετικά ισχυρή, με συντελεστή Pearson Correlation -0.635. Αυτό σημαίνει ότι όταν η μία μετρική αυξάνεται, η 
+άλλη τείνει να μειώνεται και αντίστροφα.
+Η συσχέτιση μεταξύ LPIPS και ViT είναι επίσης αρνητική, αλλά λιγότερο έντονη σε σχέση με τις προηγούμενες, με συντελεστή Pearson Correlation -0.545. Αυτό υποδεικνύει 
+μια αρκετά μικρότερη σχέση μεταξύ αυτών των δύο μετρικών σε σύγκριση με τις προηγούμενες.
+
+
+SkinCancerIsic(Train)
+Mean: [0.6459899  0.52058024 0.51453681]
+Std: [0.14522511 0.15518147 0.16543107]
+ImageNet
+Mean: [0.485, 0.456, 0.406]
+Std: [0.229, 0.224, 0.225]
+Cases
+Mean: [0.65886277 0.45850426 0.41027424]
+Std: [0.14796351 0.14156736 0.13876683]
+SkinCancerIsic(Dataset)
+Mean: [0.6068277  0.50798383 0.49376471]
+Std: [0.25096121 0.23038933 0.23696866]
+
+Εγώ : Θέλω να ρωτήσω και κάτι ακόμα . Εγώ εκπαιδεύω το δίκτυο ViT σε ένα dataset με δερματολογικές φωτογραφίες που είναι διαφόρων κατηγοριών . Ωστόσο μετά την εκπαίδευση
+δεν θα χρησιμοποιήσω το δίκτυο για να βρω κατηγορίες στις δικές μου φωτογραφίες καθώς οι δικές μου φωτογραφίες δεν έχουν κατηγορίες . Εγώ έχω 176 cases(φακέλους) που
+κάθε μία περιέχει 3 φωτογραφίες . Η πρώτη είναι η περιοχή του δέρματος που δεν είναι φυσιολογική ενώ οι άλλες δύο είναι φωτογραφίες του δέρματος που είναι φυσιολογικές . 
+Αυτό που θέλω είναι να πάρω διανύσματα από το εκπαιδευμένο δίκτυο και να υπολογίσω την ομοιότητα της πρώτης με τις άλλες δύο εικόνες ώστε να δω αν τα αποτελέσματα αυτά 
+ταιριάζουν με τις βαθμολογίες των γιατρών . Πιστεύεις θα με βοηθήσει κάπως το να εκπαιδεύσω το δίκτυο σε αυτό το dataset με τις δερματολογικές φωτογραφίες ή όχι ?
+
+Chat GPT : Η εκπαίδευση του δικτύου σε ένα dataset με δερματολογικές φωτογραφίες μπορεί να είναι χρήσιμη για τη δημιουργία ενός ισχυρού εξαγωγέα χαρακτηριστικών, ακόμα
+κι αν δεν πρόκειται να χρησιμοποιήσεις το δίκτυο για κατηγοριοποίηση με την παραδοσιακή έννοια.
+
+Η εκπαίδευση σε κατηγοριοποιημένες δερματολογικές εικόνες βοηθά το δίκτυο να μάθει σημαντικά χαρακτηριστικά και μοτίβα στις δερματολογικές φωτογραφίες, τα οποία μπορείς
+να χρησιμοποιήσεις για να εξάγεις διανύσματα χαρακτηριστικών για τις δικές σου φωτογραφίες. Αυτά τα διανύσματα μπορούν στη συνέχεια να χρησιμοποιηθούν για να υπολογίσεις 
+την ομοιότητα μεταξύ της μη φυσιολογικής περιοχής και των φυσιολογικών περιοχών.
+
+
+Total indices for class 0: 2486
+Class 0: 2237 training indices, 249 validation indices
+Total indices for class 1: 2477
+Class 1: 2229 training indices, 248 validation indices
+Total indices for class 2: 2477
+Class 2: 2229 training indices, 248 validation indices
+Training dataset size: 6695 images
+Validation dataset size: 745 images
+Test dataset size: 1860 images
+
+trained_model.load_state_dict(checkpoint['model_state_dict']):
+Αυτός ο τρόπος προσπαθεί να φορτώσει ακριβώς το state_dict που αποθηκεύτηκε στο checkpoint στο μοντέλο. Αν υπάρχουν τυχόν ασυμβατότητες μεταξύ του state_dict στο 
+checkpoint και του μοντέλου, θα εμφανιστεί σφάλμα. Συνήθως, αυτή η μέθοδος είναι πιο αυστηρή και εξασφαλίζει ότι το μοντέλο φορτώνει ακριβώς τα βάρη που αποθηκεύτηκαν 
+κατά την εκπαίδευση. 
+
+trained_model.load_state_dict(checkpoint, strict=False):
+Αυτή η μέθοδος είναι πιο ελαστική και θα αγνοήσει τυχόν ασυμβατότητες μεταξύ του state_dict και του μοντέλου. Αν υπάρχουν επιπλέον ή ελλείποντες παράμετροι, δεν θα 
+εμφανιστεί σφάλμα και το μοντέλο θα φορτώσει ό,τι μπορεί από το checkpoint. Αυτή η μέθοδος μπορεί να χρησιμοποιηθεί όταν γνωρίζουμε ότι το μοντέλο και το state_dict 
+δεν είναι απόλυτα συμβατά αλλά θέλουμε να φορτώσουμε ό,τι μπορούμε.
+
+
+Τι είναι το CLS token;
+Το CLS token (classification token) είναι ένα ειδικό token που προστίθεται στην αρχή της ακολουθίας εισόδου πριν περάσει μέσα από ένα μοντέλο μετασχηματιστή 
+(transformer), όπως το ViT (Vision Transformer). Η ιδέα είναι ότι αυτό το token θα συγκεντρώσει πληροφόρηση από ολόκληρη την ακολουθία κατά τη διάρκεια της διαδικασίας 
+attention, επιτρέποντας στο μοντέλο να χρησιμοποιήσει το embedding αυτού του token για εργασίες ταξινόμησης (classification) ή άλλες εργασίες που απαιτούν μια συνολική 
+αναπαράσταση της εισόδου.
+
+get_cls_embedding
+1) Περάστε την εικόνα μέσα από το μοντέλο:
+Η εικόνα μετατρέπεται σε tensor και περνάει μέσα από το μοντέλο ViT.
+Το ViT χωρίζει την εικόνα σε patches και προσθέτει το CLS token στην αρχή της ακολουθίας των patches.
+2) Εξαγωγή των χαρακτηριστικών (features):
+Κατά τη διάρκεια της προώθησης (forward pass) μέσα από το μοντέλο, οι χαρακτηριστικές αναπαραστάσεις (features) εξάγονται από το τελευταίο στρώμα (layer) του 
+μετασχηματιστή.
+Η μέθοδος forward_features του ViT επιστρέφει τα χαρακτηριστικά για όλα τα tokens, συμπεριλαμβανομένου του CLS token και των spatial tokens (tokens που αντιστοιχούν στα
+patches της εικόνας).
+3)Εξαγωγή του CLS token:
+Το πρώτο token στην ακολουθία των εξαγόμενων χαρακτηριστικών είναι το CLS token.
+Χρησιμοποιώντας features[:, 0, :], εξάγουμε το embedding του CLS token.
+Το αποτέλεσμα μετατρέπεται σε numpy array και επιστρέφεται.
+
+get_full_embedding
+Η μέθοδος get_full_embedding που παρατίθεται παραπάνω εξάγει ολόκληρο το embedding από το τελευταίο layer του ViT (Vision Transformer) μοντέλου.
+1. Μετατροπή της εικόνας σε tensor και προώθηση στο μοντέλο
+image_tensor = load_and_transform_image(image_path)
+Αυτή η γραμμή κώδικα φορτώνει και μετατρέπει την εικόνα σε tensor, το οποίο είναι κατάλληλο για εισαγωγή στο μοντέλο.
+2. Forward pass
+with torch.no_grad():
+    features = model.forward_features(image_tensor)
+Η παραπάνω εντολή κάνει forward pass της εικόνας μέσα από το μοντέλο. Η μέθοδος forward_features επιστρέφει τα χαρακτηριστικά από το τελευταίο στρώμα του μετασχηματιστή
+(transformer). Αυτά τα χαρακτηριστικά περιλαμβάνουν το CLS token και τα spatial tokens.
+3. Εξαγωγή όλων των χαρακτηριστικών
+return features.cpu().numpy().flatten()
+Αυτή η γραμμή κώδικα παίρνει όλα τα χαρακτηριστικά που επέστρεψε η forward_features και τα μετατρέπει σε numpy array αφού πρώτα τα μεταφέρει στη CPU. Μετά τα 
+ισοπεδώνει (flatten) σε ένα ενιαίο διάνυσμα.
+
+Διάσταση των embeddings για μία εικόνα από το ViT : 
+
+Shape of extracted features: (1, 197, 768)
+1: Το batch size, δηλαδή ο αριθμός των εικόνων που επεξεργάστηκε το μοντέλο. Στην περίπτωσή σας είναι 1, καθώς φορτώσατε και προεπεξεργαστήκατε μία εικόνα.
+197: Ο αριθμός των tokens. Σε αυτόν περιλαμβάνονται:
+Το [CLS] token που προσαρτάται στην αρχή της ακολουθίας.
+Αριθμός Patches: Δεδομένου ότι το μέγεθος της εικόνας είναι 224x224 και το μέγεθος των patches είναι 16x16, η εικόνα διαχωρίζεται σε (224/16) x (224/16) = 14x14 patches
+Τα tokens από τα patches της εικόνας. Το ViT με τα settings που χρησιμοποιείτε διαχωρίζει την εικόνα σε 14x14 patches, άρα έχετε 14 * 14 = 196 tokens για τα patches.
+768: Η διάσταση του κάθε token embedding. Αυτή είναι η διάσταση του κάθε vector που αντιπροσωπεύει τα tokens και το [CLS] token.
+
+
+Τα παρακάτω είναι τα αποτελέσματα από το correlationViT.py αρχείο που έχει το αποτελέσματα από το preTrainedViT και το trainedViT στο bestModel που ήταν στην εποχή 4
+(Epoch_4)
+category             trainedViTCLS                  0.6619245296256389   1.4944970157483107e-23
+color                trainedViTCLS                  0.6164136445859413   8.460441904751064e-20
+texture              trainedViTCLS                  0.6554427063542962   5.604885116604998e-23
+
+Τα παρακάτω είναι τα αποτελέσματα από το correlationTrainedViTModels.py αρχείο που έχει το αποτελέσματα από και τα 25 μοντέλα που πήραμε από την εκπαίδευση του ViT. 
+Μπορέι να καλύτερο μοντέλο να ήταν αυτό της 4ης εποχής αλλά την καλύτερη επίδοση όσον αφορά το correlation την είχε το μοντέλο της εποχής 3. 
+category             Epoch_3              0.712614613062983    1.3824301788512917e-28
+category             Epoch_4              0.6619245296256389   1.4944970157483107e-23
+color                Epoch_3              0.6919313875902097   2.0890997518232448e-26
+color                Epoch_4              0.6164136445859413   8.460441904751064e-20
+texture              Epoch_3              0.6776443146004646   5.263135442898453e-25
+texture              Epoch_4              0.6554427063542962   5.604885116604998e-23
+
+Layer 171: conv5_block3_3_conv
+Layer conv5_block3_3_conv has weights.
+  Weight 0 shape: (1, 1, 512, 2048)
+  Weight 1 shape: (2048,)
+
+Layer 172: conv5_block3_3_bn
+Layer conv5_block3_3_bn has weights.
+  Weight 0 shape: (2048,)
+  Weight 1 shape: (2048,)
+  Weight 2 shape: (2048,)
+  Weight 3 shape: (2048,)
+
+Layer 173: conv5_block3_add
+Layer conv5_block3_add has no weights.
+
+Layer 174: conv5_block3_out
+Layer conv5_block3_out has no weights.
+
+Layer 175: global_average_pooling2d
+Layer global_average_pooling2d has no weights.
+
+Layer 176: dense
+Layer dense has weights.
+  Weight 0 shape: (2048, 256)
+  Weight 1 shape: (256,)
+
+Layer 177: dropout
+Layer dropout has no weights.
+
+Layer 178: dense_1
+Layer dense_1 has weights.
+  Weight 0 shape: (256, 3)
+  Weight 1 shape: (3,)
+
+Για τις εικόνες "C:\Users\steli\DIPLOMA\myProgramms\DISTS\DISTS-master\images\r0.png" και "C:\Users\steli\DIPLOMA\myProgramms\DISTS\DISTS-master\images\r01.png"
+(without resize)
+distance (PyTorch): 0.33467376232147217
+distance (TensorFlow): 0.3346738815307617
+
+(with resize)
+distance (PyTorch): 0.3084365129470825
+distance (TensorFlow): 0.3166995048522949
+
+
+First 10 elements of the binary mask for the abnormal image from the 1 feature map:
+[0 0 0 0 0 0 0 0 0 0]
+Abnormal image mask - Layer 1: Ones: 6203, Zeros: 43973
+First 10 elements of the binary mask for the first normal image from the 1 feature map:
+[1 1 1 1 1 1 1 1 1 1]
+First normal image mask - Layer 1: Ones: 23, Zeros: 50153
+First 10 elements of the binary mask for the second normal image from the 1 feature map:
+[0 1 0 0 0 0 0 0 0 0]
+Second normal image mask - Layer 1: Ones: 9, Zeros: 50167
+
+First 10 elements of the binary mask for the abnormal image from the 2 feature map:
+[0 0 1 1 1 1 1 1 1 1]
+Abnormal image mask - Layer 2: Ones: 9669, Zeros: 2875
+First 10 elements of the binary mask for the first normal image from the 2 feature map:
+[1 1 1 1 1 1 1 1 1 1]
+First normal image mask - Layer 2: Ones: 522, Zeros: 12022
+First 10 elements of the binary mask for the second normal image from the 2 feature map:
+[1 1 1 1 1 1 1 1 1 1]
+Second normal image mask - Layer 2: Ones: 459, Zeros: 12085
+
+irst 10 elements of the binary mask for the abnormal image from the 3 feature map:
+[1 1 1 1 1 1 1 1 1 1]
+Abnormal image mask - Layer 3: Ones: 596, Zeros: 2540
+First 10 elements of the binary mask for the first normal image from the 3 feature map:
+[1 1 1 0 0 0 0 0 0 0]
+First normal image mask - Layer 3: Ones: 53, Zeros: 3083
+First 10 elements of the binary mask for the second normal image from the 3 feature map:
+[1 1 1 1 1 1 0 0 0 0]
+Second normal image mask - Layer 3: Ones: 47, Zeros: 3089
+
+First 10 elements of the binary mask for the abnormal image from the 4 feature map:
+[0 0 0 0 0 0 0 0 0 0]
+Abnormal image mask - Layer 4: Ones: 0, Zeros: 784
+First 10 elements of the binary mask for the first normal image from the 4 feature map:
+[0 0 0 0 0 0 0 0 0 0]
+First normal image mask - Layer 4: Ones: 0, Zeros: 784
+First 10 elements of the binary mask for the second normal image from the 4 feature map:
+[0 0 0 0 0 0 0 0 0 0]
+Second normal image mask - Layer 4: Ones: 0, Zeros: 784
+
+First 10 elements of the binary mask for the abnormal image from the 5 feature map:
+[0 0 0 0 0 0 0 0 0 0]
+Abnormal image mask - Layer 5: Ones: 0, Zeros: 196
+First 10 elements of the binary mask for the first normal image from the 5 feature map:
+[0 0 0 0 0 0 0 0 0 0]
+First normal image mask - Layer 5: Ones: 0, Zeros: 196
+First 10 elements of the binary mask for the second normal image from the 5 feature map:
+[0 0 0 0 0 0 0 0 0 0]
+Second normal image mask - Layer 5: Ones: 0, Zeros: 196
+
+img: (1, 224, 224, 3) - 4D tensor with shape (batch size, height, width, channels)
+self.conv1_2: (1, 224, 224, 64) -  4D tensor where 64 is the number of channels
+self.covv2_2: (1, 112, 112, 128) - 4D tensor where 128 is the number of channels
+self.conv3_3: (1, 56, 56, 256) - 4D tensor where 256 is the number of channels
+self.conv4_3: (1, 28, 28, 512) - 4D tensor where 512 is the number of channels
+self.conv5_3: (1, 14, 14, 512) - 4D tensor where 512 is the number of channels 
+
+# Αποστάσεις από 1-2 , μέση απόσταση από 0-1,0-2 και γράφημα με απόσταση (να απεικονίζω κάθε κατηγορία με διαφορετικά σχέδια)
+# Να δοκιμάσω το YOLO
+# Dr.Jan-Mark Geusebroek
+
+# Ιδέες σχετικά με το fine tunning του DISTS 
+1) num of epochs 
+2) scaled distance or scaled scores
+3) other optimizers
+4) Να αλλάξω τα ίδια τα βάρη
+5) Να βάλω τις φωτο από το κανονικό δέρμα σαν έξτρα cases που τα έχουν βαθμολογήσει οι γιατροί με σκορ 1 normalzationn 10^-3 με 10&-7
+6) Να έχω ίσες τιμές από όλα τα score στο train και νσ μην χρησιμοποιήσω validation set (80-20 split)
+
+
+C:\Users\steli\DIPLOMA\myProgramms\DISTS\FineTune\splitDatasetDiplomaTrainTest.py διαχωρισμός σε train και test 70-30 !
+C:\Users\steli\DIPLOMA\myProgramms\DISTS\FineTune\checkFinalTrainTestDatasets.py έλεγχος των κατηγοριών σε train και test !
+C:\Users\steli\DIPLOMA\myProgramms\DISTS\FineTune\calculateDISTSbetweenSimilarImages.py κάνει normalize τις τιμές DISTS στο διάστημα 10^-5 , 10^-2 !
+C:\Users\steli\DIPLOMA\bcc\SCARS-SCORES-SIMILAR-IMG-NORMALIZED.xlsx αρχείο με τις normalized τιμές των όμοιων εικόνων !
+C:\Users\steli\DIPLOMA\myProgramms\DISTS\FineTune\fineTuneInSimilarImgsDISTS_tf.py fine tuning στις όμοιες εικόνες !
+C:\Users\steli\DIPLOMA\myProgramms\XLSX\Fine_Tuned_Model_DISTS_tf_all_epochs.xlsx αρχείο με τις αποστάσεις από το fine tune στις similar φωτογραφίες !
+C:\Users\steli\DIPLOMA\myProgramms\Correlation\correlationAllModelsFineTunedDIST_tf.py υπολογίζει correlation των μοντέλων από fine tunning in similae (epoch_10) !
+C:\Users\steli\DIPLOMA\myProgramms\DISTS\FineTune\meanScoreAndNormalizedScoreDoctors.py κάνει normalize την τιμή της κατηγορίες του κάθε case στο διάστημα 0 , 0.7 !
+C:\Users\steli\DIPLOMA\bcc\SCARS-SCORES-MEAN.xlsx αρχείο με τις τιμές της κατηγορίες normalized στο διάστημα 0 , 0.7 !
+C:\Users\steli\DIPLOMA\myProgramms\DISTS\FineTune\fineTuneInDissimilarImgsDISTS_tf.py ine tuning στις ανόμοιες εικόνες !

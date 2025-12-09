@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+*LOG*/
+
+# Datasets (do not upload raw data)
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Trained models and checkpoints
+models/
+*_models_*/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Colab and temporary files
+*.ipynb_save
+*.tmp
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Other large or generated files
+*.npy
+*.npz
+*.pkl
+*.joblib

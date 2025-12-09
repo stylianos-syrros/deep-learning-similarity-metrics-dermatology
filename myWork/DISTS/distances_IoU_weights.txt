@@ -1,0 +1,870 @@
+Case Distances Log
+
+Case 053 - Method 1 Distance 1: 0.3845347527475559
+Case 053 - Method 1 Distance 2: 0.3911189100960125
+Case 053 - Method 1 Average Distance: 0.3878268314217842
+Case 053 - Method 2 Distance 1: 0.41288047877690637
+Case 053 - Method 2 Distance 2: 0.4226058880463617
+Case 053 - Method 2 Average Distance: 0.417743183411634
+
+Case 054 - Method 1 Distance 1: 0.2616408542146209
+Case 054 - Method 1 Distance 2: 0.27931828106459144
+Case 054 - Method 1 Average Distance: 0.2704795676396062
+Case 054 - Method 2 Distance 1: 0.26359391254779985
+Case 054 - Method 2 Distance 2: 0.287346738098065
+Case 054 - Method 2 Average Distance: 0.2754703253229324
+
+Case 055 - Method 1 Distance 1: 0.36981870295133923
+Case 055 - Method 1 Distance 2: 0.3724131700671418
+Case 055 - Method 1 Average Distance: 0.3711159365092405
+Case 055 - Method 2 Distance 1: 0.39807021906775364
+Case 055 - Method 2 Distance 2: 0.40459244736511824
+Case 055 - Method 2 Average Distance: 0.40133133321643594
+
+Case 056 - Method 1 Distance 1: 0.34658744449187606
+Case 056 - Method 1 Distance 2: 0.3572188396363527
+Case 056 - Method 1 Average Distance: 0.3519031420641144
+Case 056 - Method 2 Distance 1: 0.39292340156629846
+Case 056 - Method 2 Distance 2: 0.40342202772785996
+Case 056 - Method 2 Average Distance: 0.3981727146470792
+
+Case 057 - Method 1 Distance 1: 0.28065029388918306
+Case 057 - Method 1 Distance 2: 0.2577464589492072
+Case 057 - Method 1 Average Distance: 0.26919837641919514
+Case 057 - Method 2 Distance 1: 0.3071440329342279
+Case 057 - Method 2 Distance 2: 0.27929998499210407
+Case 057 - Method 2 Average Distance: 0.29322200896316597
+
+Case 058 - Method 1 Distance 1: 0.3089460565820754
+Case 058 - Method 1 Distance 2: 0.3100289481899877
+Case 058 - Method 1 Average Distance: 0.30948750238603157
+Case 058 - Method 2 Distance 1: 0.34108745966116194
+Case 058 - Method 2 Distance 2: 0.34552162044195034
+Case 058 - Method 2 Average Distance: 0.34330454005155614
+
+Case 059 - Method 1 Distance 1: 0.41714171308851833
+Case 059 - Method 1 Distance 2: 0.402888919787296
+Case 059 - Method 1 Average Distance: 0.4100153164379072
+Case 059 - Method 2 Distance 1: 0.4524810223039948
+Case 059 - Method 2 Distance 2: 0.4428721434193811
+Case 059 - Method 2 Average Distance: 0.44767658286168793
+
+Case 060 - Method 1 Distance 1: 0.41457291469212676
+Case 060 - Method 1 Distance 2: 0.3979704783076762
+Case 060 - Method 1 Average Distance: 0.40627169649990147
+Case 060 - Method 2 Distance 1: 0.4541098460356152
+Case 060 - Method 2 Distance 2: 0.4398130973341823
+Case 060 - Method 2 Average Distance: 0.44696147168489875
+
+Case 061 - Method 1 Distance 1: 0.3502962389566482
+Case 061 - Method 1 Distance 2: 0.35770760048680783
+Case 061 - Method 1 Average Distance: 0.354001919721728
+Case 061 - Method 2 Distance 1: 0.38034974137853506
+Case 061 - Method 2 Distance 2: 0.38888684896056036
+Case 061 - Method 2 Average Distance: 0.3846182951695477
+
+Case 062 - Method 1 Distance 1: 0.34655827928321203
+Case 062 - Method 1 Distance 2: 0.355807637143535
+Case 062 - Method 1 Average Distance: 0.35118295821337353
+Case 062 - Method 2 Distance 1: 0.3866350482521538
+Case 062 - Method 2 Distance 2: 0.3970118964475321
+Case 062 - Method 2 Average Distance: 0.39182347234984294
+
+Case 063 - Method 1 Distance 1: 0.31719699729835815
+Case 063 - Method 1 Distance 2: 0.33727998988083163
+Case 063 - Method 1 Average Distance: 0.3272384935895949
+Case 063 - Method 2 Distance 1: 0.34951200289854567
+Case 063 - Method 2 Distance 2: 0.3699486002122854
+Case 063 - Method 2 Average Distance: 0.3597303015554155
+
+Case 064 - Method 1 Distance 1: 0.3637915604719405
+Case 064 - Method 1 Distance 2: 0.3444927288921008
+Case 064 - Method 1 Average Distance: 0.35414214468202065
+Case 064 - Method 2 Distance 1: 0.3972871892941693
+Case 064 - Method 2 Distance 2: 0.37558596637357455
+Case 064 - Method 2 Average Distance: 0.3864365778338719
+
+Case 065 - Method 1 Distance 1: 0.3232701529620263
+Case 065 - Method 1 Distance 2: 0.3183027746010547
+Case 065 - Method 1 Average Distance: 0.3207864637815405
+Case 065 - Method 2 Distance 1: 0.35910782704318067
+Case 065 - Method 2 Distance 2: 0.35158595629971046
+Case 065 - Method 2 Average Distance: 0.35534689167144556
+
+Case 066 - Method 1 Distance 1: 0.40885179352393786
+Case 066 - Method 1 Distance 2: 0.3992435934083526
+Case 066 - Method 1 Average Distance: 0.4040476934661452
+Case 066 - Method 2 Distance 1: 0.42114134687063554
+Case 066 - Method 2 Distance 2: 0.40878869765444614
+Case 066 - Method 2 Average Distance: 0.41496502226254084
+
+Case 067 - Method 1 Distance 1: 0.43288720870080943
+Case 067 - Method 1 Distance 2: 0.43651383440587566
+Case 067 - Method 1 Average Distance: 0.43470052155334254
+Case 067 - Method 2 Distance 1: 0.46168260985708465
+Case 067 - Method 2 Distance 2: 0.4646188453608988
+Case 067 - Method 2 Average Distance: 0.46315072760899173
+
+Case 068 - Method 1 Distance 1: 0.3106164169450669
+Case 068 - Method 1 Distance 2: 0.32995487772668497
+Case 068 - Method 1 Average Distance: 0.32028564733587594
+Case 068 - Method 2 Distance 1: 0.33584012782197625
+Case 068 - Method 2 Distance 2: 0.3555918428475403
+Case 068 - Method 2 Average Distance: 0.3457159853347583
+
+Case 069 - Method 1 Distance 1: 0.34732617635654295
+Case 069 - Method 1 Distance 2: 0.331515842569697
+Case 069 - Method 1 Average Distance: 0.33942100946312
+Case 069 - Method 2 Distance 1: 0.371927489930328
+Case 069 - Method 2 Distance 2: 0.3585937881595864
+Case 069 - Method 2 Average Distance: 0.3652606390449572
+
+Case 070 - Method 1 Distance 1: 0.42911681264571433
+Case 070 - Method 1 Distance 2: 0.4272987900726154
+Case 070 - Method 1 Average Distance: 0.42820780135916486
+Case 070 - Method 2 Distance 1: 0.46550872227141527
+Case 070 - Method 2 Distance 2: 0.463428688970016
+Case 070 - Method 2 Average Distance: 0.4644687056207156
+
+Case 071 - Method 1 Distance 1: 0.31306904539501823
+Case 071 - Method 1 Distance 2: 0.30053314433005907
+Case 071 - Method 1 Average Distance: 0.30680109486253865
+Case 071 - Method 2 Distance 1: 0.3339363215048873
+Case 071 - Method 2 Distance 2: 0.3166144303313586
+Case 071 - Method 2 Average Distance: 0.32527537591812294
+
+Case 072 - Method 1 Distance 1: 0.39303799723919963
+Case 072 - Method 1 Distance 2: 0.4095465617931334
+Case 072 - Method 1 Average Distance: 0.40129227951616653
+Case 072 - Method 2 Distance 1: 0.4200094440026195
+Case 072 - Method 2 Distance 2: 0.43692930017219334
+Case 072 - Method 2 Average Distance: 0.42846937208740643
+
+Case 073 - Method 1 Distance 1: 0.3655318830331553
+Case 073 - Method 1 Distance 2: 0.37843575713432354
+Case 073 - Method 1 Average Distance: 0.3719838200837394
+Case 073 - Method 2 Distance 1: 0.4002230125885562
+Case 073 - Method 2 Distance 2: 0.4111377051377224
+Case 073 - Method 2 Average Distance: 0.4056803588631393
+
+Case 074 - Method 1 Distance 1: 0.4672395410571142
+Case 074 - Method 1 Distance 2: 0.46341834319700403
+Case 074 - Method 1 Average Distance: 0.4653289421270591
+Case 074 - Method 2 Distance 1: 0.4904122853831311
+Case 074 - Method 2 Distance 2: 0.48750463812332456
+Case 074 - Method 2 Average Distance: 0.4889584617532278
+
+Case 075 - Method 1 Distance 1: 0.5143353691159753
+Case 075 - Method 1 Distance 2: 0.5411214665451058
+Case 075 - Method 1 Average Distance: 0.5277284178305406
+Case 075 - Method 2 Distance 1: 0.517688662693742
+Case 075 - Method 2 Distance 2: 0.5365920361009698
+Case 075 - Method 2 Average Distance: 0.5271403493973559
+
+Case 076 - Method 1 Distance 1: 0.5121867020890266
+Case 076 - Method 1 Distance 2: 0.5087282046998856
+Case 076 - Method 1 Average Distance: 0.5104574533944561
+Case 076 - Method 2 Distance 1: 0.5206774734808368
+Case 076 - Method 2 Distance 2: 0.517795546005794
+Case 076 - Method 2 Average Distance: 0.5192365097433154
+
+Case 077 - Method 1 Distance 1: 0.4544301913021638
+Case 077 - Method 1 Distance 2: 0.43893074103168384
+Case 077 - Method 1 Average Distance: 0.4466804661669238
+Case 077 - Method 2 Distance 1: 0.4629721210417679
+Case 077 - Method 2 Distance 2: 0.4506200601288638
+Case 077 - Method 2 Average Distance: 0.45679609058531584
+
+Case 078 - Method 1 Distance 1: 0.4365602394805943
+Case 078 - Method 1 Distance 2: 0.467230766070317
+Case 078 - Method 1 Average Distance: 0.45189550277545565
+Case 078 - Method 2 Distance 1: 0.46474620294001956
+Case 078 - Method 2 Distance 2: 0.48737279372499664
+Case 078 - Method 2 Average Distance: 0.4760594983325081
+
+Case 079 - Method 1 Distance 1: 0.36269696119213124
+Case 079 - Method 1 Distance 2: 0.36281458483023
+Case 079 - Method 1 Average Distance: 0.3627557730111806
+Case 079 - Method 2 Distance 1: 0.3953234441669998
+Case 079 - Method 2 Distance 2: 0.3963010128074912
+Case 079 - Method 2 Average Distance: 0.3958122284872455
+
+Case 080 - Method 1 Distance 1: 0.3941688472951016
+Case 080 - Method 1 Distance 2: 0.3767107622203395
+Case 080 - Method 1 Average Distance: 0.38543980475772055
+Case 080 - Method 2 Distance 1: 0.4268290924773417
+Case 080 - Method 2 Distance 2: 0.40531582671434585
+Case 080 - Method 2 Average Distance: 0.41607245959584377
+
+Case 081 - Method 1 Distance 1: 0.4622991348561919
+Case 081 - Method 1 Distance 2: 0.4567341342188249
+Case 081 - Method 1 Average Distance: 0.4595166345375084
+Case 081 - Method 2 Distance 1: 0.48106542343712577
+Case 081 - Method 2 Distance 2: 0.4769014527806451
+Case 081 - Method 2 Average Distance: 0.47898343810888544
+
+Case 082 - Method 1 Distance 1: 0.37145301724353763
+Case 082 - Method 1 Distance 2: 0.35751019753390567
+Case 082 - Method 1 Average Distance: 0.36448160738872165
+Case 082 - Method 2 Distance 1: 0.3734417354445907
+Case 082 - Method 2 Distance 2: 0.36544917140613375
+Case 082 - Method 2 Average Distance: 0.3694454534253622
+
+Case 083 - Method 1 Distance 1: 0.46423322302089065
+Case 083 - Method 1 Distance 2: 0.4521685190051987
+Case 083 - Method 1 Average Distance: 0.4582008710130447
+Case 083 - Method 2 Distance 1: 0.48624079733232983
+Case 083 - Method 2 Distance 2: 0.4767064272204362
+Case 083 - Method 2 Average Distance: 0.481473612276383
+
+Case 084 - Method 1 Distance 1: 0.39438279443815816
+Case 084 - Method 1 Distance 2: 0.40238612778698823
+Case 084 - Method 1 Average Distance: 0.3983844611125732
+Case 084 - Method 2 Distance 1: 0.41168346406858636
+Case 084 - Method 2 Distance 2: 0.4224027816489905
+Case 084 - Method 2 Average Distance: 0.4170431228587884
+
+Case 085 - Method 1 Distance 1: 0.4274947759139115
+Case 085 - Method 1 Distance 2: 0.41765791155745546
+Case 085 - Method 1 Average Distance: 0.4225763437356835
+Case 085 - Method 2 Distance 1: 0.4420019528917971
+Case 085 - Method 2 Distance 2: 0.43460691771798887
+Case 085 - Method 2 Average Distance: 0.438304435304893
+
+Case 086 - Method 1 Distance 1: 0.5067087896411366
+Case 086 - Method 1 Distance 2: 0.4880614990806289
+Case 086 - Method 1 Average Distance: 0.49738514436088277
+Case 086 - Method 2 Distance 1: 0.515180920060414
+Case 086 - Method 2 Distance 2: 0.5007483805083874
+Case 086 - Method 2 Average Distance: 0.5079646502844007
+
+Case 087 - Method 1 Distance 1: 0.48431454360550896
+Case 087 - Method 1 Distance 2: 0.47825640139583425
+Case 087 - Method 1 Average Distance: 0.4812854725006716
+Case 087 - Method 2 Distance 1: 0.4817653223466706
+Case 087 - Method 2 Distance 2: 0.4784127705719743
+Case 087 - Method 2 Average Distance: 0.48008904645932243
+
+Case 088 - Method 1 Distance 1: 0.4087182116419975
+Case 088 - Method 1 Distance 2: 0.40846566856750655
+Case 088 - Method 1 Average Distance: 0.408591940104752
+Case 088 - Method 2 Distance 1: 0.4440292634588022
+Case 088 - Method 2 Distance 2: 0.4453531283253477
+Case 088 - Method 2 Average Distance: 0.44469119589207495
+
+Case 089 - Method 1 Distance 1: 0.35033289562125425
+Case 089 - Method 1 Distance 2: 0.354344924665991
+Case 089 - Method 1 Average Distance: 0.3523389101436226
+Case 089 - Method 2 Distance 1: 0.37613448246017267
+Case 089 - Method 2 Distance 2: 0.3822625232566961
+Case 089 - Method 2 Average Distance: 0.37919850285843437
+
+Case 090 - Method 1 Distance 1: 0.4037807848603834
+Case 090 - Method 1 Distance 2: 0.4074595090242349
+Case 090 - Method 1 Average Distance: 0.40562014694230913
+Case 090 - Method 2 Distance 1: 0.4320842424852466
+Case 090 - Method 2 Distance 2: 0.4356292453469621
+Case 090 - Method 2 Average Distance: 0.43385674391610435
+
+Case 091 - Method 1 Distance 1: 0.41877589173904417
+Case 091 - Method 1 Distance 2: 0.39770942384960206
+Case 091 - Method 1 Average Distance: 0.4082426577943231
+Case 091 - Method 2 Distance 1: 0.45317393439391473
+Case 091 - Method 2 Distance 2: 0.42743356959380097
+Case 091 - Method 2 Average Distance: 0.44030375199385785
+
+Case 092 - Method 1 Distance 1: 0.4761720112743323
+Case 092 - Method 1 Distance 2: 0.5144491464610987
+Case 092 - Method 1 Average Distance: 0.4953105788677155
+Case 092 - Method 2 Distance 1: 0.48799453999501274
+Case 092 - Method 2 Distance 2: 0.521474094238302
+Case 092 - Method 2 Average Distance: 0.5047343171166574
+
+Case 093 - Method 1 Distance 1: 0.41646788550206015
+Case 093 - Method 1 Distance 2: 0.4156937889648723
+Case 093 - Method 1 Average Distance: 0.4160808372334662
+Case 093 - Method 2 Distance 1: 0.449615899970389
+Case 093 - Method 2 Distance 2: 0.44925398386856097
+Case 093 - Method 2 Average Distance: 0.449434941919475
+
+Case 094 - Method 1 Distance 1: 0.39031722393105406
+Case 094 - Method 1 Distance 2: 0.3897644957261466
+Case 094 - Method 1 Average Distance: 0.3900408598286003
+Case 094 - Method 2 Distance 1: 0.4271004612970897
+Case 094 - Method 2 Distance 2: 0.42897901386424253
+Case 094 - Method 2 Average Distance: 0.4280397375806661
+
+Case 095 - Method 1 Distance 1: 0.35898011511705963
+Case 095 - Method 1 Distance 2: 0.3460905207631395
+Case 095 - Method 1 Average Distance: 0.35253531794009957
+Case 095 - Method 2 Distance 1: 0.3794167260182051
+Case 095 - Method 2 Distance 2: 0.36550794755026983
+Case 095 - Method 2 Average Distance: 0.37246233678423746
+
+Case 096 - Method 1 Distance 1: 0.48996930350267975
+Case 096 - Method 1 Distance 2: 0.5203264198716415
+Case 096 - Method 1 Average Distance: 0.5051478616871606
+Case 096 - Method 2 Distance 1: 0.5111218806934963
+Case 096 - Method 2 Distance 2: 0.5339046816532407
+Case 096 - Method 2 Average Distance: 0.5225132811733685
+
+Case 097 - Method 1 Distance 1: 0.49083985268633534
+Case 097 - Method 1 Distance 2: 0.47639327461825065
+Case 097 - Method 1 Average Distance: 0.483616563652293
+Case 097 - Method 2 Distance 1: 0.5037912479235644
+Case 097 - Method 2 Distance 2: 0.4937984764502177
+Case 097 - Method 2 Average Distance: 0.49879486218689106
+
+Case 098 - Method 1 Distance 1: 0.4998482398661134
+Case 098 - Method 1 Distance 2: 0.49605344015568387
+Case 098 - Method 1 Average Distance: 0.4979508400108986
+Case 098 - Method 2 Distance 1: 0.503235885843095
+Case 098 - Method 2 Distance 2: 0.5004665380831099
+Case 098 - Method 2 Average Distance: 0.5018512119631025
+
+Case 099 - Method 1 Distance 1: 0.37895022719388327
+Case 099 - Method 1 Distance 2: 0.37738167292346225
+Case 099 - Method 1 Average Distance: 0.37816595005867276
+Case 099 - Method 2 Distance 1: 0.40929361521521945
+Case 099 - Method 2 Distance 2: 0.4093912018026986
+Case 099 - Method 2 Average Distance: 0.40934240850895903
+
+Case 100 - Method 1 Distance 1: 0.46865203538294464
+Case 100 - Method 1 Distance 2: 0.45392744086112546
+Case 100 - Method 1 Average Distance: 0.46128973812203505
+Case 100 - Method 2 Distance 1: 0.4798477700787376
+Case 100 - Method 2 Distance 2: 0.4668821300328403
+Case 100 - Method 2 Average Distance: 0.47336495005578894
+
+Case 101 - Method 1 Distance 1: 0.3934541752157523
+Case 101 - Method 1 Distance 2: 0.40662958377040426
+Case 101 - Method 1 Average Distance: 0.4000418794930783
+Case 101 - Method 2 Distance 1: 0.42165764009195716
+Case 101 - Method 2 Distance 2: 0.430651141670646
+Case 101 - Method 2 Average Distance: 0.4261543908813016
+
+Case 102 - Method 1 Distance 1: 0.4892561570464927
+Case 102 - Method 1 Distance 2: 0.48870435478673224
+Case 102 - Method 1 Average Distance: 0.4889802559166125
+Case 102 - Method 2 Distance 1: 0.4930988246233462
+Case 102 - Method 2 Distance 2: 0.49146763593054843
+Case 102 - Method 2 Average Distance: 0.4922832302769473
+
+Case 103 - Method 1 Distance 1: 0.5409908654660143
+Case 103 - Method 1 Distance 2: 0.5306578671819098
+Case 103 - Method 1 Average Distance: 0.535824366323962
+Case 103 - Method 2 Distance 1: 0.5332366261342234
+Case 103 - Method 2 Distance 2: 0.5257125872081527
+Case 103 - Method 2 Average Distance: 0.5294746066711881
+
+Case 104 - Method 1 Distance 1: 0.5323308473143291
+Case 104 - Method 1 Distance 2: 0.5332954149367682
+Case 104 - Method 1 Average Distance: 0.5328131311255486
+Case 104 - Method 2 Distance 1: 0.5328629802112308
+Case 104 - Method 2 Distance 2: 0.5283657136576712
+Case 104 - Method 2 Average Distance: 0.530614346934451
+
+Case 105 - Method 1 Distance 1: 0.4458321574015567
+Case 105 - Method 1 Distance 2: 0.44802677142971425
+Case 105 - Method 1 Average Distance: 0.44692946441563547
+Case 105 - Method 2 Distance 1: 0.4536464504601657
+Case 105 - Method 2 Distance 2: 0.45228537137475056
+Case 105 - Method 2 Average Distance: 0.45296591091745814
+
+Case 106 - Method 1 Distance 1: 0.3961066761543809
+Case 106 - Method 1 Distance 2: 0.3939460535941318
+Case 106 - Method 1 Average Distance: 0.39502636487425635
+Case 106 - Method 2 Distance 1: 0.4136473796898067
+Case 106 - Method 2 Distance 2: 0.4068073111784275
+Case 106 - Method 2 Average Distance: 0.4102273454341171
+
+Case 107 - Method 1 Distance 1: 0.43794372689879923
+Case 107 - Method 1 Distance 2: 0.43949485016407486
+Case 107 - Method 1 Average Distance: 0.43871928853143705
+Case 107 - Method 2 Distance 1: 0.458363846223688
+Case 107 - Method 2 Distance 2: 0.4569243301818344
+Case 107 - Method 2 Average Distance: 0.4576440882027612
+
+Case 108 - Method 1 Distance 1: 0.4444779517674846
+Case 108 - Method 1 Distance 2: 0.4355094526196933
+Case 108 - Method 1 Average Distance: 0.43999370219358896
+Case 108 - Method 2 Distance 1: 0.46801604716546275
+Case 108 - Method 2 Distance 2: 0.4624493118366082
+Case 108 - Method 2 Average Distance: 0.4652326795010355
+
+Case 109 - Method 1 Distance 1: 0.3125382716970523
+Case 109 - Method 1 Distance 2: 0.3048282871442547
+Case 109 - Method 1 Average Distance: 0.3086832794206535
+Case 109 - Method 2 Distance 1: 0.33078436459897376
+Case 109 - Method 2 Distance 2: 0.3218061273060965
+Case 109 - Method 2 Average Distance: 0.3262952459525351
+
+Case 110 - Method 1 Distance 1: 0.368805095346039
+Case 110 - Method 1 Distance 2: 0.3638256768097471
+Case 110 - Method 1 Average Distance: 0.36631538607789305
+Case 110 - Method 2 Distance 1: 0.3926929403116076
+Case 110 - Method 2 Distance 2: 0.38691776519280396
+Case 110 - Method 2 Average Distance: 0.3898053527522058
+
+Case 111 - Method 1 Distance 1: 0.3482853849313493
+Case 111 - Method 1 Distance 2: 0.3419004059236459
+Case 111 - Method 1 Average Distance: 0.3450928954274976
+Case 111 - Method 2 Distance 1: 0.3784571876658497
+Case 111 - Method 2 Distance 2: 0.37145448628498423
+Case 111 - Method 2 Average Distance: 0.37495583697541696
+
+Case 112 - Method 1 Distance 1: 0.4985349853355667
+Case 112 - Method 1 Distance 2: 0.5074594641509518
+Case 112 - Method 1 Average Distance: 0.5029972247432593
+Case 112 - Method 2 Distance 1: 0.5043660570583453
+Case 112 - Method 2 Distance 2: 0.5137220472249235
+Case 112 - Method 2 Average Distance: 0.5090440521416344
+
+Case 113 - Method 1 Distance 1: 0.5065856368723389
+Case 113 - Method 1 Distance 2: 0.4625118612799446
+Case 113 - Method 1 Average Distance: 0.48454874907614176
+Case 113 - Method 2 Distance 1: 0.5169356029319152
+Case 113 - Method 2 Distance 2: 0.48333329832334815
+Case 113 - Method 2 Average Distance: 0.5001344506276317
+
+Case 114 - Method 1 Distance 1: 0.45977244181446486
+Case 114 - Method 1 Distance 2: 0.44371827541236875
+Case 114 - Method 1 Average Distance: 0.4517453586134168
+Case 114 - Method 2 Distance 1: 0.47696431929426986
+Case 114 - Method 2 Distance 2: 0.4613380921716578
+Case 114 - Method 2 Average Distance: 0.4691512057329638
+
+Case 115 - Method 1 Distance 1: 0.3874574568979263
+Case 115 - Method 1 Distance 2: 0.37959328333512476
+Case 115 - Method 1 Average Distance: 0.38352537011652554
+Case 115 - Method 2 Distance 1: 0.41598747259345703
+Case 115 - Method 2 Distance 2: 0.4086209278045573
+Case 115 - Method 2 Average Distance: 0.41230420019900715
+
+Case 116 - Method 1 Distance 1: 0.45009853547448186
+Case 116 - Method 1 Distance 2: 0.44835926743835797
+Case 116 - Method 1 Average Distance: 0.4492289014564199
+Case 116 - Method 2 Distance 1: 0.4713379422891373
+Case 116 - Method 2 Distance 2: 0.472992521877176
+Case 116 - Method 2 Average Distance: 0.47216523208315664
+
+Case 117 - Method 1 Distance 1: 0.4965197228855299
+Case 117 - Method 1 Distance 2: 0.49867780368998493
+Case 117 - Method 1 Average Distance: 0.49759876328775743
+Case 117 - Method 2 Distance 1: 0.5002489652087516
+Case 117 - Method 2 Distance 2: 0.5029659359153373
+Case 117 - Method 2 Average Distance: 0.5016074505620445
+
+Case 118 - Method 1 Distance 1: 0.3953204291281023
+Case 118 - Method 1 Distance 2: 0.38569624053245954
+Case 118 - Method 1 Average Distance: 0.3905083348302809
+Case 118 - Method 2 Distance 1: 0.4202217203068971
+Case 118 - Method 2 Distance 2: 0.41058109591934666
+Case 118 - Method 2 Average Distance: 0.4154014081131219
+
+Case 119 - Method 1 Distance 1: 0.4361356901125356
+Case 119 - Method 1 Distance 2: 0.44598700427121607
+Case 119 - Method 1 Average Distance: 0.44106134719187584
+Case 119 - Method 2 Distance 1: 0.45100024277082795
+Case 119 - Method 2 Distance 2: 0.46244895889484716
+Case 119 - Method 2 Average Distance: 0.45672460083283756
+
+Case 120 - Method 1 Distance 1: 0.5028185343760634
+Case 120 - Method 1 Distance 2: 0.5081749276135054
+Case 120 - Method 1 Average Distance: 0.5054967309947844
+Case 120 - Method 2 Distance 1: 0.5162328065978903
+Case 120 - Method 2 Distance 2: 0.5194391305588031
+Case 120 - Method 2 Average Distance: 0.5178359685783467
+
+Case 121 - Method 1 Distance 1: 0.5085945905588052
+Case 121 - Method 1 Distance 2: 0.5385155285576921
+Case 121 - Method 1 Average Distance: 0.5235550595582487
+Case 121 - Method 2 Distance 1: 0.5134062713584744
+Case 121 - Method 2 Distance 2: 0.538217573271651
+Case 121 - Method 2 Average Distance: 0.5258119223150627
+
+Case 122 - Method 1 Distance 1: 0.4362937644386393
+Case 122 - Method 1 Distance 2: 0.4394375404789903
+Case 122 - Method 1 Average Distance: 0.4378656524588148
+Case 122 - Method 2 Distance 1: 0.4538644788961488
+Case 122 - Method 2 Distance 2: 0.4556407308583552
+Case 122 - Method 2 Average Distance: 0.454752604877252
+
+Case 123 - Method 1 Distance 1: 0.3872101996486573
+Case 123 - Method 1 Distance 2: 0.3898843922462728
+Case 123 - Method 1 Average Distance: 0.38854729594746507
+Case 123 - Method 2 Distance 1: 0.4272535618452479
+Case 123 - Method 2 Distance 2: 0.4273319564924446
+Case 123 - Method 2 Average Distance: 0.42729275916884624
+
+Case 124 - Method 1 Distance 1: 0.44388864667572836
+Case 124 - Method 1 Distance 2: 0.44739827957179834
+Case 124 - Method 1 Average Distance: 0.44564346312376335
+Case 124 - Method 2 Distance 1: 0.47071151825909197
+Case 124 - Method 2 Distance 2: 0.47266828825499596
+Case 124 - Method 2 Average Distance: 0.47168990325704396
+
+Case 125 - Method 1 Distance 1: 0.40889332906468256
+Case 125 - Method 1 Distance 2: 0.4334541886760991
+Case 125 - Method 1 Average Distance: 0.4211737588703908
+Case 125 - Method 2 Distance 1: 0.42848597681768696
+Case 125 - Method 2 Distance 2: 0.453727759856554
+Case 125 - Method 2 Average Distance: 0.4411068683371205
+
+Case 126 - Method 1 Distance 1: 0.3714299703525529
+Case 126 - Method 1 Distance 2: 0.3862853496800387
+Case 126 - Method 1 Average Distance: 0.3788576600162958
+Case 126 - Method 2 Distance 1: 0.39651656190664275
+Case 126 - Method 2 Distance 2: 0.4149217382206303
+Case 126 - Method 2 Average Distance: 0.4057191500636365
+
+Case 127 - Method 1 Distance 1: 0.453019341288339
+Case 127 - Method 1 Distance 2: 0.4180253819644628
+Case 127 - Method 1 Average Distance: 0.4355223616264009
+Case 127 - Method 2 Distance 1: 0.47571646872798334
+Case 127 - Method 2 Distance 2: 0.44395782314007315
+Case 127 - Method 2 Average Distance: 0.45983714593402825
+
+Case 128 - Method 1 Distance 1: 0.33300050992464403
+Case 128 - Method 1 Distance 2: 0.3263770028751105
+Case 128 - Method 1 Average Distance: 0.32968875639987727
+Case 128 - Method 2 Distance 1: 0.3506208484557918
+Case 128 - Method 2 Distance 2: 0.3437029113980351
+Case 128 - Method 2 Average Distance: 0.34716187992691344
+
+Case 129 - Method 1 Distance 1: 0.36379033470052835
+Case 129 - Method 1 Distance 2: 0.350638967178562
+Case 129 - Method 1 Average Distance: 0.3572146509395452
+Case 129 - Method 2 Distance 1: 0.3771990444761193
+Case 129 - Method 2 Distance 2: 0.3617608580982339
+Case 129 - Method 2 Average Distance: 0.3694799512871766
+
+Case 130 - Method 1 Distance 1: 0.3886966540125487
+Case 130 - Method 1 Distance 2: 0.40507746105975284
+Case 130 - Method 1 Average Distance: 0.3968870575361508
+Case 130 - Method 2 Distance 1: 0.4187672257762036
+Case 130 - Method 2 Distance 2: 0.43000088741476494
+Case 130 - Method 2 Average Distance: 0.4243840565954843
+
+Case 131 - Method 1 Distance 1: 0.45653568914599774
+Case 131 - Method 1 Distance 2: 0.45068796980008297
+Case 131 - Method 1 Average Distance: 0.45361182947304035
+Case 131 - Method 2 Distance 1: 0.4714292395200832
+Case 131 - Method 2 Distance 2: 0.4617963356781488
+Case 131 - Method 2 Average Distance: 0.466612787599116
+
+Case 132 - Method 1 Distance 1: 0.4844136778934003
+Case 132 - Method 1 Distance 2: 0.4995120422075038
+Case 132 - Method 1 Average Distance: 0.49196286005045203
+Case 132 - Method 2 Distance 1: 0.4985674511755884
+Case 132 - Method 2 Distance 2: 0.511126216140218
+Case 132 - Method 2 Average Distance: 0.5048468336579033
+
+Case 133 - Method 1 Distance 1: 0.4081697997974234
+Case 133 - Method 1 Distance 2: 0.4148212954639412
+Case 133 - Method 1 Average Distance: 0.4114955476306823
+Case 133 - Method 2 Distance 1: 0.43938561783684005
+Case 133 - Method 2 Distance 2: 0.44411398321585405
+Case 133 - Method 2 Average Distance: 0.44174980052634705
+
+Case 134 - Method 1 Distance 1: 0.4362669315296491
+Case 134 - Method 1 Distance 2: 0.4400634152971996
+Case 134 - Method 1 Average Distance: 0.43816517341342437
+Case 134 - Method 2 Distance 1: 0.4506735577880442
+Case 134 - Method 2 Distance 2: 0.458504330877586
+Case 134 - Method 2 Average Distance: 0.4545889443328151
+
+Case 135 - Method 1 Distance 1: 0.4192286594831144
+Case 135 - Method 1 Distance 2: 0.4302450555675379
+Case 135 - Method 1 Average Distance: 0.42473685752532614
+Case 135 - Method 2 Distance 1: 0.44026764584790434
+Case 135 - Method 2 Distance 2: 0.4479279612800715
+Case 135 - Method 2 Average Distance: 0.4440978035639879
+
+Case 136 - Method 1 Distance 1: 0.41275984568751045
+Case 136 - Method 1 Distance 2: 0.4165609210525647
+Case 136 - Method 1 Average Distance: 0.4146603833700376
+Case 136 - Method 2 Distance 1: 0.4551162393073448
+Case 136 - Method 2 Distance 2: 0.4551260710218772
+Case 136 - Method 2 Average Distance: 0.455121155164611
+
+Case 137 - Method 1 Distance 1: 0.3607697616553709
+Case 137 - Method 1 Distance 2: 0.3540388645684547
+Case 137 - Method 1 Average Distance: 0.3574043131119128
+Case 137 - Method 2 Distance 1: 0.3889012551737837
+Case 137 - Method 2 Distance 2: 0.38228191104334075
+Case 137 - Method 2 Average Distance: 0.38559158310856223
+
+Case 138 - Method 1 Distance 1: 0.41624076721850845
+Case 138 - Method 1 Distance 2: 0.41952171213903455
+Case 138 - Method 1 Average Distance: 0.4178812396787715
+Case 138 - Method 2 Distance 1: 0.4249198966879595
+Case 138 - Method 2 Distance 2: 0.42567715233890047
+Case 138 - Method 2 Average Distance: 0.42529852451343
+
+Case 139 - Method 1 Distance 1: 0.5603992248242684
+Case 139 - Method 1 Distance 2: 0.5603992248242684
+Case 139 - Method 1 Average Distance: 0.5603992248242684
+Case 139 - Method 2 Distance 1: 0.551769333422071
+Case 139 - Method 2 Distance 2: 0.551769333422071
+Case 139 - Method 2 Average Distance: 0.551769333422071
+
+Case 140 - Method 1 Distance 1: 0.25626330667948405
+Case 140 - Method 1 Distance 2: 0.28249048651435105
+Case 140 - Method 1 Average Distance: 0.26937689659691755
+Case 140 - Method 2 Distance 1: 0.2647510404347906
+Case 140 - Method 2 Distance 2: 0.2956404096888763
+Case 140 - Method 2 Average Distance: 0.28019572506183343
+
+Case 141 - Method 1 Distance 1: 0.43065532206723833
+Case 141 - Method 1 Distance 2: 0.4209389159834569
+Case 141 - Method 1 Average Distance: 0.4257971190253476
+Case 141 - Method 2 Distance 1: 0.45158374535885637
+Case 141 - Method 2 Distance 2: 0.44518461851087054
+Case 141 - Method 2 Average Distance: 0.44838418193486346
+
+Case 142 - Method 1 Distance 1: 0.4281278518494638
+Case 142 - Method 1 Distance 2: 0.3688444876812498
+Case 142 - Method 1 Average Distance: 0.3984861697653568
+Case 142 - Method 2 Distance 1: 0.4599432395744748
+Case 142 - Method 2 Distance 2: 0.40594291501111424
+Case 142 - Method 2 Average Distance: 0.4329430772927945
+
+Case 143 - Method 1 Distance 1: 0.41801823439520247
+Case 143 - Method 1 Distance 2: 0.41781644636849535
+Case 143 - Method 1 Average Distance: 0.4179173403818489
+Case 143 - Method 2 Distance 1: 0.44610771191338083
+Case 143 - Method 2 Distance 2: 0.44574886536286396
+Case 143 - Method 2 Average Distance: 0.4459282886381224
+
+Case 144 - Method 1 Distance 1: 0.3962573068179588
+Case 144 - Method 1 Distance 2: 0.3994004091795943
+Case 144 - Method 1 Average Distance: 0.39782885799877654
+Case 144 - Method 2 Distance 1: 0.4164135814477109
+Case 144 - Method 2 Distance 2: 0.421475471932688
+Case 144 - Method 2 Average Distance: 0.41894452669019944
+
+Case 145 - Method 1 Distance 1: 0.29698156143414667
+Case 145 - Method 1 Distance 2: 0.3236646248464544
+Case 145 - Method 1 Average Distance: 0.31032309314030054
+Case 145 - Method 2 Distance 1: 0.2972345125894488
+Case 145 - Method 2 Distance 2: 0.32492817435906085
+Case 145 - Method 2 Average Distance: 0.3110813434742548
+
+Case 146 - Method 1 Distance 1: 0.32767624042185894
+Case 146 - Method 1 Distance 2: 0.3810275225734292
+Case 146 - Method 1 Average Distance: 0.3543518814976441
+Case 146 - Method 2 Distance 1: 0.3420579892542065
+Case 146 - Method 2 Distance 2: 0.3940190919013282
+Case 146 - Method 2 Average Distance: 0.36803854057776736
+
+Case 147 - Method 1 Distance 1: 0.3308453720307194
+Case 147 - Method 1 Distance 2: 0.34236856324535825
+Case 147 - Method 1 Average Distance: 0.3366069676380388
+Case 147 - Method 2 Distance 1: 0.33763938122567705
+Case 147 - Method 2 Distance 2: 0.34199507976456933
+Case 147 - Method 2 Average Distance: 0.3398172304951232
+
+Case 148 - Method 1 Distance 1: 0.4356626844206759
+Case 148 - Method 1 Distance 2: 0.4308910845772568
+Case 148 - Method 1 Average Distance: 0.43327688449896634
+Case 148 - Method 2 Distance 1: 0.4323963273369894
+Case 148 - Method 2 Distance 2: 0.42511924868968143
+Case 148 - Method 2 Average Distance: 0.4287577880133354
+
+Case 149 - Method 1 Distance 1: 0.5019661273974889
+Case 149 - Method 1 Distance 2: 0.48773371581180847
+Case 149 - Method 1 Average Distance: 0.4948499216046487
+Case 149 - Method 2 Distance 1: 0.5059253562606798
+Case 149 - Method 2 Distance 2: 0.4935039530526736
+Case 149 - Method 2 Average Distance: 0.4997146546566767
+
+Case 150 - Method 1 Distance 1: 0.2912955526227786
+Case 150 - Method 1 Distance 2: 0.2967752730569905
+Case 150 - Method 1 Average Distance: 0.29403541283988455
+Case 150 - Method 2 Distance 1: 0.29468650782940475
+Case 150 - Method 2 Distance 2: 0.30047818666579185
+Case 150 - Method 2 Average Distance: 0.2975823472475983
+
+Case 151 - Method 1 Distance 1: 0.2797615061747273
+Case 151 - Method 1 Distance 2: 0.2856822309840936
+Case 151 - Method 1 Average Distance: 0.28272186857941045
+Case 151 - Method 2 Distance 1: 0.28669957365140575
+Case 151 - Method 2 Distance 2: 0.29321588516303887
+Case 151 - Method 2 Average Distance: 0.2899577294072223
+
+Case 152 - Method 1 Distance 1: 0.2401706985179528
+Case 152 - Method 1 Distance 2: 0.2598768337339056
+Case 152 - Method 1 Average Distance: 0.2500237661259292
+Case 152 - Method 2 Distance 1: 0.2413580716957704
+Case 152 - Method 2 Distance 2: 0.26111522925673825
+Case 152 - Method 2 Average Distance: 0.2512366504762543
+
+Case 153 - Method 1 Distance 1: 0.4405862635976544
+Case 153 - Method 1 Distance 2: 0.4379199440753643
+Case 153 - Method 1 Average Distance: 0.43925310383650934
+Case 153 - Method 2 Distance 1: 0.44599798269395363
+Case 153 - Method 2 Distance 2: 0.4432921258345037
+Case 153 - Method 2 Average Distance: 0.4446450542642287
+
+Case 154 - Method 1 Distance 1: 0.3984237993229782
+Case 154 - Method 1 Distance 2: 0.42805954801471746
+Case 154 - Method 1 Average Distance: 0.41324167366884784
+Case 154 - Method 2 Distance 1: 0.40293054785184335
+Case 154 - Method 2 Distance 2: 0.42547453754599684
+Case 154 - Method 2 Average Distance: 0.4142025426989201
+
+Case 155 - Method 1 Distance 1: 0.3702177905682609
+Case 155 - Method 1 Distance 2: 0.3576418043102747
+Case 155 - Method 1 Average Distance: 0.3639297974392678
+Case 155 - Method 2 Distance 1: 0.37936002029402693
+Case 155 - Method 2 Distance 2: 0.36340947624647835
+Case 155 - Method 2 Average Distance: 0.37138474827025264
+
+Case 156 - Method 1 Distance 1: 0.4576202973301703
+Case 156 - Method 1 Distance 2: 0.4157116720544949
+Case 156 - Method 1 Average Distance: 0.4366659846923326
+Case 156 - Method 2 Distance 1: 0.4610576602046772
+Case 156 - Method 2 Distance 2: 0.42412168111214843
+Case 156 - Method 2 Average Distance: 0.4425896706584128
+
+Case 157 - Method 1 Distance 1: 0.3858639249087279
+Case 157 - Method 1 Distance 2: 0.3805613191043167
+Case 157 - Method 1 Average Distance: 0.3832126220065223
+Case 157 - Method 2 Distance 1: 0.41280761808508304
+Case 157 - Method 2 Distance 2: 0.40726046024006335
+Case 157 - Method 2 Average Distance: 0.4100340391625732
+
+Case 158 - Method 1 Distance 1: 0.3416327416014079
+Case 158 - Method 1 Distance 2: 0.3292208158125304
+Case 158 - Method 1 Average Distance: 0.33542677870696913
+Case 158 - Method 2 Distance 1: 0.3682807305632797
+Case 158 - Method 2 Distance 2: 0.3556648158703577
+Case 158 - Method 2 Average Distance: 0.3619727732168187
+
+Case 159 - Method 1 Distance 1: 0.3298085110354452
+Case 159 - Method 1 Distance 2: 0.34130805875361936
+Case 159 - Method 1 Average Distance: 0.33555828489453227
+Case 159 - Method 2 Distance 1: 0.3395613509721902
+Case 159 - Method 2 Distance 2: 0.35219235122269976
+Case 159 - Method 2 Average Distance: 0.345876851097445
+
+Case 160 - Method 1 Distance 1: 0.3232355786258325
+Case 160 - Method 1 Distance 2: 0.3212315372372838
+Case 160 - Method 1 Average Distance: 0.32223355793155817
+Case 160 - Method 2 Distance 1: 0.3424788048158047
+Case 160 - Method 2 Distance 2: 0.3397157734899625
+Case 160 - Method 2 Average Distance: 0.3410972891528836
+
+Case 161 - Method 1 Distance 1: 0.47633498494132276
+Case 161 - Method 1 Distance 2: 0.5097129262790943
+Case 161 - Method 1 Average Distance: 0.4930239556102085
+Case 161 - Method 2 Distance 1: 0.4892753949740606
+Case 161 - Method 2 Distance 2: 0.5170529048801903
+Case 161 - Method 2 Average Distance: 0.5031641499271254
+
+Case 162 - Method 1 Distance 1: 0.3627117886986899
+Case 162 - Method 1 Distance 2: 0.3592273985864495
+Case 162 - Method 1 Average Distance: 0.3609695936425697
+Case 162 - Method 2 Distance 1: 0.3990937781019608
+Case 162 - Method 2 Distance 2: 0.3910538468611341
+Case 162 - Method 2 Average Distance: 0.39507381248154744
+
+Case 163 - Method 1 Distance 1: 0.41845989802961614
+Case 163 - Method 1 Distance 2: 0.41888490966995484
+Case 163 - Method 1 Average Distance: 0.4186724038497855
+Case 163 - Method 2 Distance 1: 0.4354304313722561
+Case 163 - Method 2 Distance 2: 0.4376353686223152
+Case 163 - Method 2 Average Distance: 0.4365328999972857
+
+Case 164 - Method 1 Distance 1: 0.3049764513099036
+Case 164 - Method 1 Distance 2: 0.3086608635091669
+Case 164 - Method 1 Average Distance: 0.30681865740953523
+Case 164 - Method 2 Distance 1: 0.3165759335810473
+Case 164 - Method 2 Distance 2: 0.32824761031262106
+Case 164 - Method 2 Average Distance: 0.3224117719468342
+
+Case 165 - Method 1 Distance 1: 0.4271308961648539
+Case 165 - Method 1 Distance 2: 0.41829651696891157
+Case 165 - Method 1 Average Distance: 0.42271370656688273
+Case 165 - Method 2 Distance 1: 0.4333502805753585
+Case 165 - Method 2 Distance 2: 0.4266340408084748
+Case 165 - Method 2 Average Distance: 0.42999216069191665
+
+Case 166 - Method 1 Distance 1: 0.3525127838841151
+Case 166 - Method 1 Distance 2: 0.3649006919260903
+Case 166 - Method 1 Average Distance: 0.3587067379051027
+Case 166 - Method 2 Distance 1: 0.39008106529958664
+Case 166 - Method 2 Distance 2: 0.4043948553348594
+Case 166 - Method 2 Average Distance: 0.397237960317223
+
+Case 167 - Method 1 Distance 1: 0.4148311538375953
+Case 167 - Method 1 Distance 2: 0.41004183846655784
+Case 167 - Method 1 Average Distance: 0.41243649615207656
+Case 167 - Method 2 Distance 1: 0.40879402863466907
+Case 167 - Method 2 Distance 2: 0.4016000332318692
+Case 167 - Method 2 Average Distance: 0.40519703093326914
+
+Case 168 - Method 1 Distance 1: 0.4467333964445477
+Case 168 - Method 1 Distance 2: 0.43800871578627354
+Case 168 - Method 1 Average Distance: 0.4423710561154106
+Case 168 - Method 2 Distance 1: 0.4690993174037019
+Case 168 - Method 2 Distance 2: 0.45997787322869055
+Case 168 - Method 2 Average Distance: 0.46453859531619623
+
+Case 169 - Method 1 Distance 1: 0.4153318373975403
+Case 169 - Method 1 Distance 2: 0.4057031391444357
+Case 169 - Method 1 Average Distance: 0.410517488270988
+Case 169 - Method 2 Distance 1: 0.42152703683732384
+Case 169 - Method 2 Distance 2: 0.41095509621373627
+Case 169 - Method 2 Average Distance: 0.41624106652553006
+
+Case 170 - Method 1 Distance 1: 0.30549039730206395
+Case 170 - Method 1 Distance 2: 0.30488800246019143
+Case 170 - Method 1 Average Distance: 0.3051891998811277
+Case 170 - Method 2 Distance 1: 0.31470422307135015
+Case 170 - Method 2 Distance 2: 0.30715064463583897
+Case 170 - Method 2 Average Distance: 0.31092743385359456
+
+Case 171 - Method 1 Distance 1: 0.3831868101248538
+Case 171 - Method 1 Distance 2: 0.3918877711077502
+Case 171 - Method 1 Average Distance: 0.387537290616302
+Case 171 - Method 2 Distance 1: 0.41209883827727434
+Case 171 - Method 2 Distance 2: 0.42513484086832365
+Case 171 - Method 2 Average Distance: 0.418616839572799
+
+Case 172 - Method 1 Distance 1: 0.4498389687115898
+Case 172 - Method 1 Distance 2: 0.45036270536532585
+Case 172 - Method 1 Average Distance: 0.4501008370384578
+Case 172 - Method 2 Distance 1: 0.45955001028639675
+Case 172 - Method 2 Distance 2: 0.4629026134759986
+Case 172 - Method 2 Average Distance: 0.46122631188119767
+
+Case 173 - Method 1 Distance 1: 0.3313346412695032
+Case 173 - Method 1 Distance 2: 0.33771825521733634
+Case 173 - Method 1 Average Distance: 0.33452644824341976
+Case 173 - Method 2 Distance 1: 0.3313696241824554
+Case 173 - Method 2 Distance 2: 0.34602365107053523
+Case 173 - Method 2 Average Distance: 0.3386966376264953
+
+Case 174 - Method 1 Distance 1: 0.41922100582983435
+Case 174 - Method 1 Distance 2: 0.4135942890280605
+Case 174 - Method 1 Average Distance: 0.4164076474289474
+Case 174 - Method 2 Distance 1: 0.447071386068295
+Case 174 - Method 2 Distance 2: 0.4384492838148695
+Case 174 - Method 2 Average Distance: 0.44276033494158223
+
+Case 175 - Method 1 Distance 1: 0.413604177194012
+Case 175 - Method 1 Distance 2: 0.44135313619856076
+Case 175 - Method 1 Average Distance: 0.4274786566962864
+Case 175 - Method 2 Distance 1: 0.43867672515130063
+Case 175 - Method 2 Distance 2: 0.4676751565948073
+Case 175 - Method 2 Average Distance: 0.45317594087305396
+
+Case 176 - Method 1 Distance 1: 0.42619680775117785
+Case 176 - Method 1 Distance 2: 0.42843527483327104
+Case 176 - Method 1 Average Distance: 0.42731604129222445
+Case 176 - Method 2 Distance 1: 0.4512532829203729
+Case 176 - Method 2 Distance 2: 0.45406862571530826
+Case 176 - Method 2 Average Distance: 0.4526609543178406
+
