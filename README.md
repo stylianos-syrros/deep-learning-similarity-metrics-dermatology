@@ -101,7 +101,12 @@ The GUI is a **complementary tool** built on top of the core models and similari
 
 ## How to Use This Repository
 
-Because this project contains multiple experiments and frameworks (TensorFlow, PyTorch, classical ML, GUI tools, etc.), the exact steps depend on which part you want to run. A typical workflow is:
+This repository contains **research code** and multiple experimental setups (TensorFlow, PyTorch, classical ML, GUI tools, etc.) developed during an exploratory diploma thesis.  
+It is **not a single plug-and-play training pipeline**, but rather a collection of scripts and notebooks that illustrate ideas, architectures, and evaluation workflows.
+
+The code is intended primarily as a **reference and starting point** for researchers or practitioners who would like to apply similar methods to **their own dermatology (or medical) image datasets**.
+
+A typical way to work with this repository is:
 
 1. **Clone the repository** from GitHub:
    ```bash
